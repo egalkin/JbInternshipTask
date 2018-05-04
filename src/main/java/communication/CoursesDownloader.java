@@ -19,13 +19,6 @@ import java.util.ArrayList;
 
 public class CoursesDownloader {
 
-    public static void main(String... args) throws IOException {
-        ArrayList<Course> courses = CoursesDownloader.getAllCourses();
-        courses.subList(0, 400).forEach(System.out::println);
-        System.out.println(courses.size());
-    }
-
-
     public static ArrayList<Course> getAllCourses() {
         ArrayList<Course> stepikCourses = new ArrayList<>();
         final String requestBody = "https://stepik.org/api/courses?page=";
