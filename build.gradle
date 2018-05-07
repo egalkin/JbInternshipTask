@@ -26,3 +26,21 @@ task run (type: JavaExec, dependsOn: classes){
     classpath = sourceSets.main.runtimeClasspath
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+}
+
+task createJar(type : Jar) {
+    manifest{
+        attributes 'Main-Class': 'Main'
+    }
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+    with jar
+}
+

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stepik_gradle.iml" filepath="$PROJECT_DIR$/.idea/modules/stepik_gradle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stepik_gradle_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stepik_gradle_main.iml" group="stepik_gradle" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stepik_gradle_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stepik_gradle_test.iml" group="stepik_gradle" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JbInternshipTask.iml" filepath="$PROJECT_DIR$/.idea/modules/JbInternshipTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JbInternshipTask_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JbInternshipTask_main.iml" group="JbInternshipTask" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JbInternshipTask_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JbInternshipTask_test.iml" group="JbInternshipTask" />
     </modules>
   </component>
 </project>

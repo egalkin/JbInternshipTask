@@ -5,9 +5,9 @@ import exceptions.ToBigNumberException;
 public class Main {
     public static void main(String... args) {
         if (args.length == 0) {
-            System.err.println("Empty input. Usage: lengthOfList");
+            System.err.println("Empty input. Usage: <lengthOfList>");
         } else if (args.length > 1) {
-            System.err.println("Too many arguments. Usage: lengthOfList");
+            System.err.println("Too many arguments. Usage: <lengthOfList>");
         } else {
             Integer n = null;
             try {
@@ -17,7 +17,7 @@ public class Main {
             }
             if (n != null) {
                 if (n < 0) {
-                    System.err.println("Given number is negative. Usage: lengthOfList");
+                    System.err.println("Given number is negative. Usage: <lengthOfList>");
                 } else {
                     PopularCoursesGetter coursesGetter = new PopularCoursesGetter() ;
                     try {
